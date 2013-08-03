@@ -9,6 +9,10 @@ gem 'rspec-rails'
 gem 'selenium-webdriver'
 gem 'capybara'
 
+gem 'spork-rails', github: 'sporkrb/spork-rails'
+gem 'guard-spork'
+gem 'childprocess'
+
 group :production do
 gem 'pg'
 gem 'rails_12factor'
