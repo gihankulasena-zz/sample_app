@@ -40,7 +40,7 @@ end
     @user = User.find(params[:id])
     if @user.update_attributes(user_params)
       flash[:success]="Profile updated"
-      sing_in @user
+      sign_in @user
       redirect_to @user
     else
       render 'edit'
