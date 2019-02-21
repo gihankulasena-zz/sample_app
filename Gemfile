@@ -10,7 +10,7 @@ gem 'will_paginate', ">= 3.0.5"
 gem 'bootstrap-will_paginate'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.3.6'
 gem 'rspec-rails'
 gem 'selenium-webdriver'
 gem 'capybara'
